@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    width:100vw;
+    min-height:100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width:75%;
+    margin:0 auto;
+}
+/*nav bar css start*/
+nav{
+    background-color: #eaeaea;
+}
+.nav-container{
+    display:flex;
+    padding:20px 0;
+    align-items:center;
+}
+.brand-logo{
+    width:170px;
+}
+.brand-logo img{
+    width:100%;
+    height:auto;
+}
+.nav-items{
+    margin-left:auto;
+    display:flex;
+   
+
+}
+.nav-item{
+    margin-left:30px;
+
+}
+.nav-items a{
+    text-decoration: none;
+    color:black;
+    font-size:16px;
+    padding:10px;
+   
+}
+.active a{
+    border-bottom:3px solid #0066f9;
+}
+.nav-item:hover a{
+    border-bottom:3px solid #0066f9;
+}
+.nav-item:last-child a {
+    color: white;
+    background: #0066f9;
+    padding: 6px 10px;
+    border-radius:2px;
+}
+/* main container */
+main{
+    padding: 26px 0;
+}
+.title-info{
+  border-bottom:1px solid #555;
+  padding-bottom:22px;
+}
+.title-info h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 75px;
+}
+.title-info h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.title-info p{
+    line-height: 28px;
+    font-size: 16px;
+}
+.blog-title-info{
+    border-bottom:none;
+}
+.post-box-title{
+    font-size: 17px;
+    color: black;
+    line-height: 80px;
+}
+.post-box-footer a{
+    font-size: 17px;
+    color: black;
+    line-height: 80px;
+}
+.post-box{
+    margin-top:2%;
+}
+.post-boxes{
+    display:flex;
+}
+.adding-post-box{
+    width:48%;
+    margin-right:2%;
+    background-color:#eaeaea;
+}
+.adding-post-box img{
+    width: 100%;
+    height: 250px;
+    position:relative;
+}
+.adding-post-box button{
+    color: white;
+    background: #7848d4;
+    padding: 12px 8px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: -272px;
+}
+.post-box-info{
+    padding:30px;
+}
+.post-box-info p:first-child{
+    font-size: 13px;
+    color: #4e4e4e;
+    line-height: 25px;
+}
+.post-box-info h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+.post-box-info p:last-child{
+    line-height: 20px;
+    padding-top: 10px;
+    color: #4e4e4e;
+}
+.creating-post-box{
+    width:48%;
+    background-color:#eaeaea;
+}
+.creating-post-box img{
+    width: 100%;
+    height: 250px;
+}
+.creating-post-box button{
+    color: white;
+    background: #7848d4;
+    padding: 12px 8px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: -272px;
+}
+
+
+#image{
+    background:#079992;
+}
+#javascript{
+    background:#e58e26;
+}
+
+
+
+
+.contact-info p{
+    padding: 30px 0;
+    font-size: 17px;
+    line-height: 25px;
+}
+.contact-info h3{
+    font-size:20px;
+    font-weight:600;
+    margin-top:10px;
+
+}
+
+
+.contact-ancor-info a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.contact-info a{
+    text-decoration: none;
+}
+
+.contact-code-box{
+    background:#dcdcdc40;
+    color:#55555596;
+    padding:10px;
+    border:1px solid #555;
+    border-radius:3px;
+    margin-top:10px;
+}
+.contact-code-box span{
+    line-height: 23px;
+    display: block;
+    font-size: 13px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.manu{
+
+}
+.item{
+    padding:25px 0;
+    font-size:20px;
+    border-bottom:3px solid#ddd;
+}
+.item:last-child{
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer content */
+hr.footer{
+    border-top: 1px solid #eaeaea;
+}
+.icons{
+    margin-top:25px;
+}
+.icons i{
+    font-size: 45px;
+    color: #0066f9;
+    margin-right: 18px;
+}
+.icons-content{
+    margin-top:15px;
+}
+.icons-content p{
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.icons-content p a{
+    color:black;
+}
